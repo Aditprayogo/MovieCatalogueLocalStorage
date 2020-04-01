@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">MovieCatalogueLocalStorage</string>
+    <string name="title_movie">Movie</string>
+    <string name="title_tvshow">Tvshow</string>
+    <string name="title_favorite">Favorite</string>
+    <string name="tab_text_1">Movies</string>
+    <string name="tab_text_2">Tv Show</string>
+    <string name="overview">Overview :</string>
+    <string name="change_language_settings">Change Language Settings</string>
+    <string name="rating">Rating</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="fragment_movie">Movie</string>
+    <string name="fragment_tvshow">TvShow</string>
+    <string name="fragment_favorite">Favorite</string>
+    <string name="btn_delete">Delete</string>
+    <string name="favorite">Favorite</string>
+    <string name="favorite_added">Added to favorite</string>
+    <string name="movie_favorite_already">This movie already favorite</string>
+    <string name="item_deleted">Item has been deleted</string>
+</resources>

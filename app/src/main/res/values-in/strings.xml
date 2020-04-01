@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MovieCatalogueLocalStorage</string>
+    <string name="title_movie">Film</string>
+    <string name="title_tvshow">Serial Tv</string>
+    <string name="title_favorite">Disukai</string>
+    <string name="tab_text_1">Film</string>
+    <string name="tab_text_2">Serial Tv</string>
+    <string name="overview">Gambaran :</string>
+    <string name="change_language_settings">Ubah pengaturan bahasa</string>
+    <string name="rating">Peringkat</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="fragment_movie">Film</string>
+    <string name="fragment_tvshow">Serial Tv</string>
+    <string name="fragment_favorite">Disukai</string>
+    <string name="btn_delete">Hapus</string>
+    <string name="favorite">Disukai</string>
+    <!--  Perasaaan udah di tambahin-->
+    <string name="favorite_added">Ditambah ke favorite</string>
+    <string name="movie_favorite_already">Film ini telah di favorite</string>
+    <string name="item_deleted">Data telah berhasil di hapus</string>
+</resources>

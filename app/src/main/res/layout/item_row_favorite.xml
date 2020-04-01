@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cardView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="8dp"
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="8dp"
+    android:layout_marginBottom="8dp"
+    android:padding="12dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/img_photo"
+            android:layout_width="154dp"
+            android:layout_height="170dp"
+            />
+
+        <TextView
+            android:id="@+id/txt_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="26dp"
+            android:layout_toEndOf="@id/img_photo"
+            android:text="Title"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/txt_overview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt_title"
+            android:layout_marginStart="26dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/img_photo"
+            android:ellipsize="end"
+            android:maxLines="3"
+            android:text="@string/overview"
+            />
+
+        <TextView
+            android:id="@+id/txt_rating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt_overview"
+            android:layout_marginStart="26dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="24dp"
+            android:layout_toRightOf="@id/img_photo"
+            android:drawableRight="@drawable/ic_star_24dp"
+            android:drawablePadding="10dp"
+            android:ellipsize="end"
+            android:maxLines="3"
+            android:text="@string/rating" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorAccent"
+            android:id="@+id/btn_remove"
+            android:text="@string/btn_delete"
+            android:layout_below="@+id/txt_rating"
+            android:layout_toRightOf="@+id/img_photo"
+            android:layout_marginStart="26dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="24dp"
+             />
+
+
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
